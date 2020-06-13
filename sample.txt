@@ -1,0 +1,12 @@
+a = True
+b = True
+c = True
+
+if not a or b:
+print ("not a or b" )
+elif not a or not b and c:
+print ("not a or not b and c" )
+elif not a or b or not b and a:
+print ("not a or b or not b and a" )
+else:
+print ("All of the given condition false")
